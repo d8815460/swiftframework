@@ -1,0 +1,6 @@
+framework module DataModel {
+  umbrella header "DataModel.h"
+
+  export *
+  module * { export * }
+}

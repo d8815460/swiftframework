@@ -1,0 +1,84 @@
+{
+    "error"   : 0,
+    "response":
+    {
+        "id"		: "01ouo3umgui3rnouwm",
+        "name"		: "Getway 01",
+        "locations"	: [
+                       {
+                       "id" 		 : "l01",
+                       "name"  	 : "Bedroom",
+                       "accessories": [
+                                       {
+                                       "id"  		: "a01",
+                                       "name"		: "Switch 01",
+                                       "status"	: 0,
+                                       "type" : 4,
+                                       "trigger"	: 0
+                                       },
+                                       {
+                                       "id"  		: "a02",
+                                       "name"		: "Light 01",
+                                       "status"	: 1,
+                                       "type" : 0,
+                                       "trigger"	: 0
+                                       }
+                                       ]
+                       },
+                       {
+                       "id" 		 : "l02",
+                       "name"		 : "Bathroom",
+                       "accessories": [
+                                       {
+                                       "id"		: "a03",
+                                       "name"		: "Switch 02",
+                                       "status"	: 0,
+                                       "type"	: 4,
+                                       "trigger"	: 0
+                                       },
+                                       {
+                                       "id"	 	 : "g01",
+                                       "name"	 	 : "Group 01",
+                                       "status"	: 0,
+                                       "type"	: 5,
+                                       "trigger"	: 0,
+                                       }
+                                       ],
+                       },
+                       {
+                       "id" 		 : "l03",
+                       "name"  	 : "Kitchen",
+                       "accessories": [
+                                       {
+                                       "id"  		: "a04", 
+                                       "name"		: "Garage Door Sensor 01",
+                                       "status"	: 2,
+                                       "type" : 2,
+                                       "trigger"	: 1
+                                       },
+                                       {
+                                       "id"  		: "a05", 
+                                       "name"		: "Light 02",
+                                       "status"	: 1,
+                                       "type" : 0,
+                                       "trigger"	: 0
+                                       },
+                                       {
+                                       "id"  		: "a06", 
+                                       "name"		: "Light 03",
+                                       "status"	: 1,
+                                       "type" : 0,
+                                       "trigger"	: 0
+                                       },
+                                       {
+                                       "id"  		: "a07", 
+                                       "name"		: "Light 04",
+                                       "status"	: 1,
+                                       "type" : 0,
+                                       "trigger"	: 0
+                                       }
+                                       ]
+                       }
+                       ]
+    }
+}

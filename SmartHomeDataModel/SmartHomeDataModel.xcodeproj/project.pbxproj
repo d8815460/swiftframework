@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1DD7D21CF3FAE700951F4A /* kalay_dserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1DD7D11CF3FAE700951F4A /* kalay_dserver.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E1DD7D41CF3FAED00951F4A /* kalay_device.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1DD7D31CF3FAED00951F4A /* kalay_device.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DA81CEEE8F10064BF10 /* DataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E449DA71CEEE8F10064BF10 /* DataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E449DAF1CEEE8F20064BF10 /* DataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E449DA51CEEE8F10064BF10 /* DataModel.framework */; };
+		2E449DB61CEEE8F20064BF10 /* DataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E449DB51CEEE8F20064BF10 /* DataModelTests.m */; };
+		2E449DC31CEEE9280064BF10 /* APIs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5B6AB1CEA2AF7006F44E5 /* APIs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DC41CEEE92E0064BF10 /* DMAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E2FF61CE4A4BF005EE6E8 /* DMAccount.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DC51CEEE9310064BF10 /* DMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E9AAE1CE4BC37003D972D /* DMBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DC61CEEE9350064BF10 /* DMBaseGateway.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE971621CE22642003E74E8 /* DMBaseGateway.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DC71CEEE9390064BF10 /* DMGateway.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE971531CE22398003E74E8 /* DMGateway.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E449DC81CEEE93F0064BF10 /* DMLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9EAF8C1CE396FD00BEEC17 /* DMLocation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DC91CEEE9480064BF10 /* DMBaseAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E9AB41CE4F728003D972D /* DMBaseAccessory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DCA1CEEE94B0064BF10 /* DMGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE9715C1CE223F4003E74E8 /* DMGroup.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DCB1CEEE9500064BF10 /* DMAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE9715F1CE2240E003E74E8 /* DMAccessory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DD11CEEEB6A0064BF10 /* DMBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9AAF1CE4BC37003D972D /* DMBase.m */; };
+		2E449DD21CEEEB6A0064BF10 /* DMAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FF71CE4A4BF005EE6E8 /* DMAccount.m */; };
+		2E449DD31CEEEB6A0064BF10 /* DMBaseGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971631CE22642003E74E8 /* DMBaseGateway.m */; };
+		2E449DD41CEEEB6A0064BF10 /* DMGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971541CE22398003E74E8 /* DMGateway.m */; };
+		2E449DD51CEEEB6A0064BF10 /* DMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EAF8D1CE396FD00BEEC17 /* DMLocation.m */; };
+		2E449DD61CEEEB6A0064BF10 /* DMBaseAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9AB51CE4F728003D972D /* DMBaseAccessory.m */; };
+		2E449DD71CEEEB6A0064BF10 /* DMGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9715D1CE223F4003E74E8 /* DMGroup.m */; };
+		2E449DD81CEEEB6A0064BF10 /* DMAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971601CE2240E003E74E8 /* DMAccessory.m */; };
+		2E449DD91CEEEB6A0064BF10 /* DMSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EAF8A1CE3941500BEEC17 /* DMSchedule.m */; };
+		2E449DDA1CEEEB6A0064BF10 /* DMSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FEB1CE4A444005EE6E8 /* DMSetting.m */; };
+		2E449DDB1CEEEB6A0064BF10 /* DMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FEE1CE4A45B005EE6E8 /* DMTask.m */; };
+		2E449DDC1CEEEB6A0064BF10 /* DMActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FF11CE4A471005EE6E8 /* DMActivity.m */; };
+		2E449DDD1CEEEB6A0064BF10 /* DMAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FFA1CE4A4DE005EE6E8 /* DMAbout.m */; };
+		2E449DDE1CEEEB6A0064BF10 /* NSMutableArray+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ABB1CE5005B003D972D /* NSMutableArray+Convenience.m */; };
+		2E449DDF1CEEEB6A0064BF10 /* NSArray+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ACA1CE61520003D972D /* NSArray+JSONString.m */; };
+		2E449DE01CEEEB6A0064BF10 /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ACD1CE615BB003D972D /* NSDictionary+JSONString.m */; };
+		2E449DE11CEEEBA00064BF10 /* NSMutableArray+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E9ABA1CE5005B003D972D /* NSMutableArray+Convenience.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DE21CEEEBA00064BF10 /* NSArray+JSONString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E9AC91CE61520003D972D /* NSArray+JSONString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E449DE31CEEEBA00064BF10 /* NSDictionary+JSONString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E9ACC1CE615BB003D972D /* NSDictionary+JSONString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2E8E2FEC1CE4A444005EE6E8 /* DMSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FEB1CE4A444005EE6E8 /* DMSetting.m */; };
+		2E8E2FEF1CE4A45B005EE6E8 /* DMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FEE1CE4A45B005EE6E8 /* DMTask.m */; };
+		2E8E2FF21CE4A471005EE6E8 /* DMActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FF11CE4A471005EE6E8 /* DMActivity.m */; };
+		2E8E2FF81CE4A4BF005EE6E8 /* DMAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FF71CE4A4BF005EE6E8 /* DMAccount.m */; };
+		2E8E2FFB1CE4A4DE005EE6E8 /* DMAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2FFA1CE4A4DE005EE6E8 /* DMAbout.m */; };
+		2E8E9AB01CE4BC37003D972D /* DMBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9AAF1CE4BC37003D972D /* DMBase.m */; };
+		2E8E9AB21CE4D0B9003D972D /* gateway.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E9AB11CE4D0B9003D972D /* gateway.json */; };
+		2E8E9AB61CE4F728003D972D /* DMBaseAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9AB51CE4F728003D972D /* DMBaseAccessory.m */; };
+		2E8E9ABC1CE5005B003D972D /* NSMutableArray+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ABB1CE5005B003D972D /* NSMutableArray+Convenience.m */; };
+		2E8E9ACB1CE61520003D972D /* NSArray+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ACA1CE61520003D972D /* NSArray+JSONString.m */; };
+		2E8E9ACE1CE615BB003D972D /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E9ACD1CE615BB003D972D /* NSDictionary+JSONString.m */; };
+		2E9EAF8B1CE3941600BEEC17 /* DMSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EAF8A1CE3941500BEEC17 /* DMSchedule.m */; };
+		2E9EAF8E1CE396FD00BEEC17 /* DMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EAF8D1CE396FD00BEEC17 /* DMLocation.m */; };
+		2EA513951CEF308E0064E647 /* libIOTCAPIs_ALL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA513931CEF308E0064E647 /* libIOTCAPIs_ALL.a */; };
+		2EA513961CEF308E0064E647 /* libIOTCAPIs_ALL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA513931CEF308E0064E647 /* libIOTCAPIs_ALL.a */; };
+		2EA513971CEF308E0064E647 /* libkalay_device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA513941CEF308E0064E647 /* libkalay_device.a */; };
+		2EA513981CEF308E0064E647 /* libkalay_device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA513941CEF308E0064E647 /* libkalay_device.a */; };
+		2EE9711C1CE222C0003E74E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9711B1CE222C0003E74E8 /* main.m */; };
+		2EE9711F1CE222C0003E74E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9711E1CE222C0003E74E8 /* AppDelegate.m */; };
+		2EE971221CE222C0003E74E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971211CE222C0003E74E8 /* ViewController.m */; };
+		2EE971251CE222C0003E74E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE971231CE222C0003E74E8 /* Main.storyboard */; };
+		2EE971281CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971261CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodeld */; };
+		2EE9712A1CE222C0003E74E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE971291CE222C0003E74E8 /* Assets.xcassets */; };
+		2EE9712D1CE222C0003E74E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9712B1CE222C0003E74E8 /* LaunchScreen.storyboard */; };
+		2EE971381CE222C0003E74E8 /* SmartHomeDataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971371CE222C0003E74E8 /* SmartHomeDataModelTests.m */; };
+		2EE971431CE222C0003E74E8 /* SmartHomeDataModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971421CE222C0003E74E8 /* SmartHomeDataModelUITests.m */; };
+		2EE971551CE22398003E74E8 /* DMGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971541CE22398003E74E8 /* DMGateway.m */; };
+		2EE9715E1CE223F4003E74E8 /* DMGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9715D1CE223F4003E74E8 /* DMGroup.m */; };
+		2EE971611CE2240E003E74E8 /* DMAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971601CE2240E003E74E8 /* DMAccessory.m */; };
+		2EE971641CE22642003E74E8 /* DMBaseGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE971631CE22642003E74E8 /* DMBaseGateway.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E449DB01CEEE8F20064BF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE9710F1CE222BF003E74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E449DA41CEEE8F10064BF10;
+			remoteInfo = DataModel;
+		};
+		2E449DB21CEEE8F20064BF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE9710F1CE222BF003E74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE971161CE222BF003E74E8;
+			remoteInfo = SmartHomeDataModel;
+		};
+		2EE971341CE222C0003E74E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE9710F1CE222BF003E74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE971161CE222BF003E74E8;
+			remoteInfo = SmartHomeDataModel;
+		};
+		2EE9713F1CE222C0003E74E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE9710F1CE222BF003E74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE971161CE222BF003E74E8;
+			remoteInfo = SmartHomeDataModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E1DD7D11CF3FAE700951F4A /* kalay_dserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kalay_dserver.h; path = SmartHomeDataModel/include/kalay_dserver.h; sourceTree = "<group>"; };
+		2E1DD7D31CF3FAED00951F4A /* kalay_device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kalay_device.h; path = SmartHomeDataModel/include/kalay_device.h; sourceTree = "<group>"; };
+		2E449DA51CEEE8F10064BF10 /* DataModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E449DA71CEEE8F10064BF10 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		2E449DA91CEEE8F20064BF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E449DAE1CEEE8F20064BF10 /* DataModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E449DB51CEEE8F20064BF10 /* DataModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModelTests.m; sourceTree = "<group>"; };
+		2E449DB71CEEE8F20064BF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E449DE51CEEEBFB0064BF10 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = SmartHomeDataModel/include; sourceTree = "<group>"; };
+		2E8E2FEA1CE4A444005EE6E8 /* DMSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMSetting.h; path = Model/DMSetting.h; sourceTree = "<group>"; };
+		2E8E2FEB1CE4A444005EE6E8 /* DMSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMSetting.m; path = Model/DMSetting.m; sourceTree = "<group>"; };
+		2E8E2FED1CE4A45B005EE6E8 /* DMTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTask.h; path = Model/DMTask.h; sourceTree = "<group>"; };
+		2E8E2FEE1CE4A45B005EE6E8 /* DMTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTask.m; path = Model/DMTask.m; sourceTree = "<group>"; };
+		2E8E2FF01CE4A471005EE6E8 /* DMActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMActivity.h; path = Model/DMActivity.h; sourceTree = "<group>"; };
+		2E8E2FF11CE4A471005EE6E8 /* DMActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMActivity.m; path = Model/DMActivity.m; sourceTree = "<group>"; };
+		2E8E2FF61CE4A4BF005EE6E8 /* DMAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMAccount.h; path = Model/DMAccount.h; sourceTree = "<group>"; };
+		2E8E2FF71CE4A4BF005EE6E8 /* DMAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMAccount.m; path = Model/DMAccount.m; sourceTree = "<group>"; };
+		2E8E2FF91CE4A4DE005EE6E8 /* DMAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMAbout.h; path = Model/DMAbout.h; sourceTree = "<group>"; };
+		2E8E2FFA1CE4A4DE005EE6E8 /* DMAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMAbout.m; path = Model/DMAbout.m; sourceTree = "<group>"; };
+		2E8E9AAE1CE4BC37003D972D /* DMBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBase.h; path = Model/DMBase.h; sourceTree = "<group>"; };
+		2E8E9AAF1CE4BC37003D972D /* DMBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBase.m; path = Model/DMBase.m; sourceTree = "<group>"; };
+		2E8E9AB11CE4D0B9003D972D /* gateway.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gateway.json; path = json/gateway.json; sourceTree = "<group>"; };
+		2E8E9AB41CE4F728003D972D /* DMBaseAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBaseAccessory.h; path = Model/DMBaseAccessory.h; sourceTree = "<group>"; };
+		2E8E9AB51CE4F728003D972D /* DMBaseAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBaseAccessory.m; path = Model/DMBaseAccessory.m; sourceTree = "<group>"; };
+		2E8E9ABA1CE5005B003D972D /* NSMutableArray+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Convenience.h"; path = "Category/NSMutableArray+Convenience.h"; sourceTree = "<group>"; };
+		2E8E9ABB1CE5005B003D972D /* NSMutableArray+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Convenience.m"; path = "Category/NSMutableArray+Convenience.m"; sourceTree = "<group>"; };
+		2E8E9AC91CE61520003D972D /* NSArray+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONString.h"; path = "Category/NSArray+JSONString.h"; sourceTree = "<group>"; };
+		2E8E9ACA1CE61520003D972D /* NSArray+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONString.m"; path = "Category/NSArray+JSONString.m"; sourceTree = "<group>"; };
+		2E8E9ACC1CE615BB003D972D /* NSDictionary+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSONString.h"; path = "Category/NSDictionary+JSONString.h"; sourceTree = "<group>"; };
+		2E8E9ACD1CE615BB003D972D /* NSDictionary+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JSONString.m"; path = "Category/NSDictionary+JSONString.m"; sourceTree = "<group>"; };
+		2E9EAF891CE3941500BEEC17 /* DMSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMSchedule.h; path = Model/DMSchedule.h; sourceTree = "<group>"; };
+		2E9EAF8A1CE3941500BEEC17 /* DMSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMSchedule.m; path = Model/DMSchedule.m; sourceTree = "<group>"; };
+		2E9EAF8C1CE396FD00BEEC17 /* DMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMLocation.h; path = Model/DMLocation.h; sourceTree = "<group>"; };
+		2E9EAF8D1CE396FD00BEEC17 /* DMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMLocation.m; path = Model/DMLocation.m; sourceTree = "<group>"; };
+		2EA513931CEF308E0064E647 /* libIOTCAPIs_ALL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIOTCAPIs_ALL.a; sourceTree = "<group>"; };
+		2EA513941CEF308E0064E647 /* libkalay_device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libkalay_device.a; sourceTree = "<group>"; };
+		2EA5B6AB1CEA2AF7006F44E5 /* APIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIs.h; sourceTree = "<group>"; };
+		2EE971171CE222BF003E74E8 /* SmartHomeDataModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeDataModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE9711B1CE222C0003E74E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE9711D1CE222C0003E74E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE9711E1CE222C0003E74E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE971201CE222C0003E74E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EE971211CE222C0003E74E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EE971241CE222C0003E74E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EE971271CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartHomeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		2EE971291CE222C0003E74E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EE9712C1CE222C0003E74E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EE9712E1CE222C0003E74E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE971331CE222C0003E74E8 /* SmartHomeDataModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeDataModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE971371CE222C0003E74E8 /* SmartHomeDataModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHomeDataModelTests.m; sourceTree = "<group>"; };
+		2EE971391CE222C0003E74E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE9713E1CE222C0003E74E8 /* SmartHomeDataModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeDataModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE971421CE222C0003E74E8 /* SmartHomeDataModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHomeDataModelUITests.m; sourceTree = "<group>"; };
+		2EE971441CE222C0003E74E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE971531CE22398003E74E8 /* DMGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMGateway.h; path = Model/DMGateway.h; sourceTree = "<group>"; };
+		2EE971541CE22398003E74E8 /* DMGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMGateway.m; path = Model/DMGateway.m; sourceTree = "<group>"; };
+		2EE9715C1CE223F4003E74E8 /* DMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMGroup.h; path = Model/DMGroup.h; sourceTree = "<group>"; };
+		2EE9715D1CE223F4003E74E8 /* DMGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMGroup.m; path = Model/DMGroup.m; sourceTree = "<group>"; };
+		2EE9715F1CE2240E003E74E8 /* DMAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMAccessory.h; path = Model/DMAccessory.h; sourceTree = "<group>"; };
+		2EE971601CE2240E003E74E8 /* DMAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMAccessory.m; path = Model/DMAccessory.m; sourceTree = "<group>"; };
+		2EE971621CE22642003E74E8 /* DMBaseGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBaseGateway.h; path = Model/DMBaseGateway.h; sourceTree = "<group>"; };
+		2EE971631CE22642003E74E8 /* DMBaseGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBaseGateway.m; path = Model/DMBaseGateway.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E449DA11CEEE8F10064BF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA513981CEF308E0064E647 /* libkalay_device.a in Frameworks */,
+				2EA513961CEF308E0064E647 /* libIOTCAPIs_ALL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E449DAB1CEEE8F20064BF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E449DAF1CEEE8F20064BF10 /* DataModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE971141CE222BF003E74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA513971CEF308E0064E647 /* libkalay_device.a in Frameworks */,
+				2EA513951CEF308E0064E647 /* libIOTCAPIs_ALL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE971301CE222C0003E74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9713B1CE222C0003E74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E449DA61CEEE8F10064BF10 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E449DA71CEEE8F10064BF10 /* DataModel.h */,
+				2E449DA91CEEE8F20064BF10 /* Info.plist */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2E449DB41CEEE8F20064BF10 /* DataModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E449DB51CEEE8F20064BF10 /* DataModelTests.m */,
+				2E449DB71CEEE8F20064BF10 /* Info.plist */,
+			);
+			path = DataModelTests;
+			sourceTree = "<group>";
+		};
+		2E8E9AAC1CE4BB73003D972D /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5B6AB1CEA2AF7006F44E5 /* APIs.h */,
+				2EE971621CE22642003E74E8 /* DMBaseGateway.h */,
+				2EE971631CE22642003E74E8 /* DMBaseGateway.m */,
+				2EE971531CE22398003E74E8 /* DMGateway.h */,
+				2EE971541CE22398003E74E8 /* DMGateway.m */,
+				2E9EAF8C1CE396FD00BEEC17 /* DMLocation.h */,
+				2E9EAF8D1CE396FD00BEEC17 /* DMLocation.m */,
+				2E8E9ABD1CE56554003D972D /* Accessory */,
+				2E8E9AAD1CE4BB8B003D972D /* Common */,
+			);
+			name = Gateway;
+			sourceTree = "<group>";
+		};
+		2E8E9AAD1CE4BB8B003D972D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EAF891CE3941500BEEC17 /* DMSchedule.h */,
+				2E9EAF8A1CE3941500BEEC17 /* DMSchedule.m */,
+				2E8E2FEA1CE4A444005EE6E8 /* DMSetting.h */,
+				2E8E2FEB1CE4A444005EE6E8 /* DMSetting.m */,
+				2E8E2FED1CE4A45B005EE6E8 /* DMTask.h */,
+				2E8E2FEE1CE4A45B005EE6E8 /* DMTask.m */,
+				2E8E2FF01CE4A471005EE6E8 /* DMActivity.h */,
+				2E8E2FF11CE4A471005EE6E8 /* DMActivity.m */,
+				2E8E2FF91CE4A4DE005EE6E8 /* DMAbout.h */,
+				2E8E2FFA1CE4A4DE005EE6E8 /* DMAbout.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2E8E9ABD1CE56554003D972D /* Accessory */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E9AB41CE4F728003D972D /* DMBaseAccessory.h */,
+				2E8E9AB51CE4F728003D972D /* DMBaseAccessory.m */,
+				2EE9715C1CE223F4003E74E8 /* DMGroup.h */,
+				2EE9715D1CE223F4003E74E8 /* DMGroup.m */,
+				2EE9715F1CE2240E003E74E8 /* DMAccessory.h */,
+				2EE971601CE2240E003E74E8 /* DMAccessory.m */,
+			);
+			name = Accessory;
+			sourceTree = "<group>";
+		};
+		2E8E9ABE1CE59C83003D972D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E9AAE1CE4BC37003D972D /* DMBase.h */,
+				2E8E9AAF1CE4BC37003D972D /* DMBase.m */,
+				2E8E2FF61CE4A4BF005EE6E8 /* DMAccount.h */,
+				2E8E2FF71CE4A4BF005EE6E8 /* DMAccount.m */,
+				2E8E9AAC1CE4BB73003D972D /* Gateway */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		2E8E9AC41CE60322003D972D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E9ABA1CE5005B003D972D /* NSMutableArray+Convenience.h */,
+				2E8E9ABB1CE5005B003D972D /* NSMutableArray+Convenience.m */,
+				2E8E9AC91CE61520003D972D /* NSArray+JSONString.h */,
+				2E8E9ACA1CE61520003D972D /* NSArray+JSONString.m */,
+				2E8E9ACC1CE615BB003D972D /* NSDictionary+JSONString.h */,
+				2E8E9ACD1CE615BB003D972D /* NSDictionary+JSONString.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		2EE9710E1CE222BF003E74E8 = {
+			isa = PBXGroup;
+			children = (
+				2E1DD7D31CF3FAED00951F4A /* kalay_device.h */,
+				2E1DD7D11CF3FAE700951F4A /* kalay_dserver.h */,
+				2EA513931CEF308E0064E647 /* libIOTCAPIs_ALL.a */,
+				2EA513941CEF308E0064E647 /* libkalay_device.a */,
+				2E449DE51CEEEBFB0064BF10 /* include */,
+				2EE971191CE222C0003E74E8 /* SmartHomeDataModel */,
+				2EE971361CE222C0003E74E8 /* SmartHomeDataModelTests */,
+				2EE971411CE222C0003E74E8 /* SmartHomeDataModelUITests */,
+				2E449DA61CEEE8F10064BF10 /* DataModel */,
+				2E449DB41CEEE8F20064BF10 /* DataModelTests */,
+				2EE971181CE222BF003E74E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE971181CE222BF003E74E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971171CE222BF003E74E8 /* SmartHomeDataModel.app */,
+				2EE971331CE222C0003E74E8 /* SmartHomeDataModelTests.xctest */,
+				2EE9713E1CE222C0003E74E8 /* SmartHomeDataModelUITests.xctest */,
+				2E449DA51CEEE8F10064BF10 /* DataModel.framework */,
+				2E449DAE1CEEE8F20064BF10 /* DataModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE971191CE222C0003E74E8 /* SmartHomeDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971501CE222CE003E74E8 /* Model */,
+				2EE971521CE222F1003E74E8 /* View */,
+				2EE971511CE222DC003E74E8 /* Controller */,
+				2E8E9AC41CE60322003D972D /* Category */,
+				2EE9711A1CE222C0003E74E8 /* Supporting Files */,
+			);
+			path = SmartHomeDataModel;
+			sourceTree = "<group>";
+		};
+		2EE9711A1CE222C0003E74E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971291CE222C0003E74E8 /* Assets.xcassets */,
+				2EE9712B1CE222C0003E74E8 /* LaunchScreen.storyboard */,
+				2EE971261CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodeld */,
+				2EE9712E1CE222C0003E74E8 /* Info.plist */,
+				2EE9711B1CE222C0003E74E8 /* main.m */,
+				2E8E9AB11CE4D0B9003D972D /* gateway.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE971361CE222C0003E74E8 /* SmartHomeDataModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971371CE222C0003E74E8 /* SmartHomeDataModelTests.m */,
+				2EE971391CE222C0003E74E8 /* Info.plist */,
+			);
+			path = SmartHomeDataModelTests;
+			sourceTree = "<group>";
+		};
+		2EE971411CE222C0003E74E8 /* SmartHomeDataModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971421CE222C0003E74E8 /* SmartHomeDataModelUITests.m */,
+				2EE971441CE222C0003E74E8 /* Info.plist */,
+			);
+			path = SmartHomeDataModelUITests;
+			sourceTree = "<group>";
+		};
+		2EE971501CE222CE003E74E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EE9711D1CE222C0003E74E8 /* AppDelegate.h */,
+				2EE9711E1CE222C0003E74E8 /* AppDelegate.m */,
+				2E8E9ABE1CE59C83003D972D /* Account */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2EE971511CE222DC003E74E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971201CE222C0003E74E8 /* ViewController.h */,
+				2EE971211CE222C0003E74E8 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2EE971521CE222F1003E74E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE971231CE222C0003E74E8 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E449DA21CEEE8F10064BF10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E449DA81CEEE8F10064BF10 /* DataModel.h in Headers */,
+				2E449DC71CEEE9390064BF10 /* DMGateway.h in Headers */,
+				2E1DD7D41CF3FAED00951F4A /* kalay_device.h in Headers */,
+				2E1DD7D21CF3FAE700951F4A /* kalay_dserver.h in Headers */,
+				2E449DC31CEEE9280064BF10 /* APIs.h in Headers */,
+				2E449DE11CEEEBA00064BF10 /* NSMutableArray+Convenience.h in Headers */,
+				2E449DE21CEEEBA00064BF10 /* NSArray+JSONString.h in Headers */,
+				2E449DE31CEEEBA00064BF10 /* NSDictionary+JSONString.h in Headers */,
+				2E449DC51CEEE9310064BF10 /* DMBase.h in Headers */,
+				2E449DC41CEEE92E0064BF10 /* DMAccount.h in Headers */,
+				2E449DC61CEEE9350064BF10 /* DMBaseGateway.h in Headers */,
+				2E449DC81CEEE93F0064BF10 /* DMLocation.h in Headers */,
+				2E449DC91CEEE9480064BF10 /* DMBaseAccessory.h in Headers */,
+				2E449DCA1CEEE94B0064BF10 /* DMGroup.h in Headers */,
+				2E449DCB1CEEE9500064BF10 /* DMAccessory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E449DA41CEEE8F10064BF10 /* DataModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E449DC11CEEE8F20064BF10 /* Build configuration list for PBXNativeTarget "DataModel" */;
+			buildPhases = (
+				2E449DA01CEEE8F10064BF10 /* Sources */,
+				2E449DA11CEEE8F10064BF10 /* Frameworks */,
+				2E449DA21CEEE8F10064BF10 /* Headers */,
+				2E449DA31CEEE8F10064BF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataModel;
+			productName = DataModel;
+			productReference = 2E449DA51CEEE8F10064BF10 /* DataModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E449DAD1CEEE8F20064BF10 /* DataModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E449DC21CEEE8F20064BF10 /* Build configuration list for PBXNativeTarget "DataModelTests" */;
+			buildPhases = (
+				2E449DAA1CEEE8F20064BF10 /* Sources */,
+				2E449DAB1CEEE8F20064BF10 /* Frameworks */,
+				2E449DAC1CEEE8F20064BF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E449DB11CEEE8F20064BF10 /* PBXTargetDependency */,
+				2E449DB31CEEE8F20064BF10 /* PBXTargetDependency */,
+			);
+			name = DataModelTests;
+			productName = DataModelTests;
+			productReference = 2E449DAE1CEEE8F20064BF10 /* DataModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EE971161CE222BF003E74E8 /* SmartHomeDataModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE971471CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModel" */;
+			buildPhases = (
+				2EE971131CE222BF003E74E8 /* Sources */,
+				2EE971141CE222BF003E74E8 /* Frameworks */,
+				2EE971151CE222BF003E74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeDataModel;
+			productName = SmartHomeDataModel;
+			productReference = 2EE971171CE222BF003E74E8 /* SmartHomeDataModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EE971321CE222C0003E74E8 /* SmartHomeDataModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE9714A1CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModelTests" */;
+			buildPhases = (
+				2EE9712F1CE222C0003E74E8 /* Sources */,
+				2EE971301CE222C0003E74E8 /* Frameworks */,
+				2EE971311CE222C0003E74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE971351CE222C0003E74E8 /* PBXTargetDependency */,
+			);
+			name = SmartHomeDataModelTests;
+			productName = SmartHomeDataModelTests;
+			productReference = 2EE971331CE222C0003E74E8 /* SmartHomeDataModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EE9713D1CE222C0003E74E8 /* SmartHomeDataModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE9714D1CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModelUITests" */;
+			buildPhases = (
+				2EE9713A1CE222C0003E74E8 /* Sources */,
+				2EE9713B1CE222C0003E74E8 /* Frameworks */,
+				2EE9713C1CE222C0003E74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE971401CE222C0003E74E8 /* PBXTargetDependency */,
+			);
+			name = SmartHomeDataModelUITests;
+			productName = SmartHomeDataModelUITests;
+			productReference = 2EE9713E1CE222C0003E74E8 /* SmartHomeDataModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE9710F1CE222BF003E74E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ME;
+				TargetAttributes = {
+					2E449DA41CEEE8F10064BF10 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CHX656NT89;
+					};
+					2E449DAD1CEEE8F20064BF10 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2EE971161CE222BF003E74E8;
+					};
+					2EE971161CE222BF003E74E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CHX656NT89;
+					};
+					2EE971321CE222C0003E74E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2EE971161CE222BF003E74E8;
+					};
+					2EE9713D1CE222C0003E74E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2EE971161CE222BF003E74E8;
+					};
+				};
+			};
+			buildConfigurationList = 2EE971121CE222BF003E74E8 /* Build configuration list for PBXProject "SmartHomeDataModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE9710E1CE222BF003E74E8;
+			productRefGroup = 2EE971181CE222BF003E74E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE971161CE222BF003E74E8 /* SmartHomeDataModel */,
+				2EE971321CE222C0003E74E8 /* SmartHomeDataModelTests */,
+				2EE9713D1CE222C0003E74E8 /* SmartHomeDataModelUITests */,
+				2E449DAD1CEEE8F20064BF10 /* DataModelTests */,
+				2E449DA41CEEE8F10064BF10 /* DataModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E449DA31CEEE8F10064BF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E449DAC1CEEE8F20064BF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE971151CE222BF003E74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8E9AB21CE4D0B9003D972D /* gateway.json in Resources */,
+				2EE9712D1CE222C0003E74E8 /* LaunchScreen.storyboard in Resources */,
+				2EE9712A1CE222C0003E74E8 /* Assets.xcassets in Resources */,
+				2EE971251CE222C0003E74E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE971311CE222C0003E74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9713C1CE222C0003E74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E449DA01CEEE8F10064BF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E449DD11CEEEB6A0064BF10 /* DMBase.m in Sources */,
+				2E449DD21CEEEB6A0064BF10 /* DMAccount.m in Sources */,
+				2E449DD31CEEEB6A0064BF10 /* DMBaseGateway.m in Sources */,
+				2E449DD41CEEEB6A0064BF10 /* DMGateway.m in Sources */,
+				2E449DD51CEEEB6A0064BF10 /* DMLocation.m in Sources */,
+				2E449DD61CEEEB6A0064BF10 /* DMBaseAccessory.m in Sources */,
+				2E449DD71CEEEB6A0064BF10 /* DMGroup.m in Sources */,
+				2E449DD81CEEEB6A0064BF10 /* DMAccessory.m in Sources */,
+				2E449DD91CEEEB6A0064BF10 /* DMSchedule.m in Sources */,
+				2E449DDA1CEEEB6A0064BF10 /* DMSetting.m in Sources */,
+				2E449DDB1CEEEB6A0064BF10 /* DMTask.m in Sources */,
+				2E449DDC1CEEEB6A0064BF10 /* DMActivity.m in Sources */,
+				2E449DDD1CEEEB6A0064BF10 /* DMAbout.m in Sources */,
+				2E449DDE1CEEEB6A0064BF10 /* NSMutableArray+Convenience.m in Sources */,
+				2E449DDF1CEEEB6A0064BF10 /* NSArray+JSONString.m in Sources */,
+				2E449DE01CEEEB6A0064BF10 /* NSDictionary+JSONString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E449DAA1CEEE8F20064BF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E449DB61CEEE8F20064BF10 /* DataModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE971131CE222BF003E74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8E2FF21CE4A471005EE6E8 /* DMActivity.m in Sources */,
+				2EE971221CE222C0003E74E8 /* ViewController.m in Sources */,
+				2EE971551CE22398003E74E8 /* DMGateway.m in Sources */,
+				2EE971611CE2240E003E74E8 /* DMAccessory.m in Sources */,
+				2EE9715E1CE223F4003E74E8 /* DMGroup.m in Sources */,
+				2E9EAF8E1CE396FD00BEEC17 /* DMLocation.m in Sources */,
+				2EE9711F1CE222C0003E74E8 /* AppDelegate.m in Sources */,
+				2E8E2FEC1CE4A444005EE6E8 /* DMSetting.m in Sources */,
+				2E8E2FEF1CE4A45B005EE6E8 /* DMTask.m in Sources */,
+				2E8E9ACB1CE61520003D972D /* NSArray+JSONString.m in Sources */,
+				2E8E2FFB1CE4A4DE005EE6E8 /* DMAbout.m in Sources */,
+				2E8E9ACE1CE615BB003D972D /* NSDictionary+JSONString.m in Sources */,
+				2EE971281CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodeld in Sources */,
+				2E9EAF8B1CE3941600BEEC17 /* DMSchedule.m in Sources */,
+				2E8E9AB61CE4F728003D972D /* DMBaseAccessory.m in Sources */,
+				2EE9711C1CE222C0003E74E8 /* main.m in Sources */,
+				2E8E2FF81CE4A4BF005EE6E8 /* DMAccount.m in Sources */,
+				2EE971641CE22642003E74E8 /* DMBaseGateway.m in Sources */,
+				2E8E9AB01CE4BC37003D972D /* DMBase.m in Sources */,
+				2E8E9ABC1CE5005B003D972D /* NSMutableArray+Convenience.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9712F1CE222C0003E74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE971381CE222C0003E74E8 /* SmartHomeDataModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE9713A1CE222C0003E74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE971431CE222C0003E74E8 /* SmartHomeDataModelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E449DB11CEEE8F20064BF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E449DA41CEEE8F10064BF10 /* DataModel */;
+			targetProxy = 2E449DB01CEEE8F20064BF10 /* PBXContainerItemProxy */;
+		};
+		2E449DB31CEEE8F20064BF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE971161CE222BF003E74E8 /* SmartHomeDataModel */;
+			targetProxy = 2E449DB21CEEE8F20064BF10 /* PBXContainerItemProxy */;
+		};
+		2EE971351CE222C0003E74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE971161CE222BF003E74E8 /* SmartHomeDataModel */;
+			targetProxy = 2EE971341CE222C0003E74E8 /* PBXContainerItemProxy */;
+		};
+		2EE971401CE222C0003E74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE971161CE222BF003E74E8 /* SmartHomeDataModel */;
+			targetProxy = 2EE9713F1CE222C0003E74E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EE971231CE222C0003E74E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE971241CE222C0003E74E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EE9712B1CE222C0003E74E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE9712C1CE222C0003E74E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E449DBD1CEEE8F20064BF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = ../SmartHome/lib;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DataModel/Info.plist;
+				INSTALL_PATH = "/${CONFIGURATION}-${PLATFORM_NAME}";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.DataModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E449DBE1CEEE8F20064BF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = ../SmartHome/lib;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DataModel/Info.plist;
+				INSTALL_PATH = "/${CONFIGURATION}-${PLATFORM_NAME}";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.DataModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E449DBF1CEEE8F20064BF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.DataModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeDataModel.app/SmartHomeDataModel";
+			};
+			name = Debug;
+		};
+		2E449DC01CEEE8F20064BF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.DataModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeDataModel.app/SmartHomeDataModel";
+			};
+			name = Release;
+		};
+		2EE971451CE222C0003E74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = ../SmartHome/lib;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "/${CONFIGURATION}-${PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE971461CE222C0003E74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = ../SmartHome/lib;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "/${CONFIGURATION}-${PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE971481CE222C0003E74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SmartHomeDataModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartHomeDataModel",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.smarthome.datamodel.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/SmartHomeDataModel/include";
+			};
+			name = Debug;
+		};
+		2EE971491CE222C0003E74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SmartHomeDataModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartHomeDataModel",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.smarthome.datamodel.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/SmartHomeDataModel/include";
+			};
+			name = Release;
+		};
+		2EE9714B1CE222C0003E74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartHomeDataModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.SmartHomeDataModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeDataModel.app/SmartHomeDataModel";
+			};
+			name = Debug;
+		};
+		2EE9714C1CE222C0003E74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartHomeDataModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.SmartHomeDataModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeDataModel.app/SmartHomeDataModel";
+			};
+			name = Release;
+		};
+		2EE9714E1CE222C0003E74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartHomeDataModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.SmartHomeDataModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartHomeDataModel;
+			};
+			name = Debug;
+		};
+		2EE9714F1CE222C0003E74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartHomeDataModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ME.SmartHomeDataModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartHomeDataModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E449DC11CEEE8F20064BF10 /* Build configuration list for PBXNativeTarget "DataModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E449DBD1CEEE8F20064BF10 /* Debug */,
+				2E449DBE1CEEE8F20064BF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E449DC21CEEE8F20064BF10 /* Build configuration list for PBXNativeTarget "DataModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E449DBF1CEEE8F20064BF10 /* Debug */,
+				2E449DC01CEEE8F20064BF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE971121CE222BF003E74E8 /* Build configuration list for PBXProject "SmartHomeDataModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE971451CE222C0003E74E8 /* Debug */,
+				2EE971461CE222C0003E74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE971471CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE971481CE222C0003E74E8 /* Debug */,
+				2EE971491CE222C0003E74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE9714A1CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE9714B1CE222C0003E74E8 /* Debug */,
+				2EE9714C1CE222C0003E74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE9714D1CE222C0003E74E8 /* Build configuration list for PBXNativeTarget "SmartHomeDataModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE9714E1CE222C0003E74E8 /* Debug */,
+				2EE9714F1CE222C0003E74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EE971261CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EE971271CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodel */,
+			);
+			currentVersion = 2EE971271CE222C0003E74E8 /* SmartHomeDataModel.xcdatamodel */;
+			path = SmartHomeDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2EE9710F1CE222BF003E74E8 /* Project object */;
+}

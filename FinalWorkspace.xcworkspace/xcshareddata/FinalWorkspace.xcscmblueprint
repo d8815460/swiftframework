@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6B21EBED571DB0AA1AFB6A4A066D76B0FB8A48D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8442B14696888DFE6C7FF4855E28664BBDA98D96" : 0,
+    "6B21EBED571DB0AA1AFB6A4A066D76B0FB8A48D5" : 0,
+    "5A3C6308ADC3C23E83D6C6B8425EB1581E4D7AC8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3939B506-B3EF-4A03-9E8C-4526C172DDB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8442B14696888DFE6C7FF4855E28664BBDA98D96" : "Vtech_SmartHome\/SmartHomeDataModel\/",
+    "6B21EBED571DB0AA1AFB6A4A066D76B0FB8A48D5" : "Vtech_SmartHome\/",
+    "5A3C6308ADC3C23E83D6C6B8425EB1581E4D7AC8" : "Vtech_SmartHome\/commonux\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FinalWorkspace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FinalWorkspace.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.tutk.com:7999\/iosvtc\/commonux.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A3C6308ADC3C23E83D6C6B8425EB1581E4D7AC8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.tutk.com:7999\/iosvtc\/smarthome-baseapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B21EBED571DB0AA1AFB6A4A066D76B0FB8A48D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.tutk.com:7999\/kh2\/ios_datamodel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8442B14696888DFE6C7FF4855E28664BBDA98D96"
+    }
+  ]
+}

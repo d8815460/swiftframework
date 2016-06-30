@@ -1,0 +1,8 @@
+[submodule "commonux"]
+	path = commonux
+	url = ssh://git@stash.tutk.com:7999/iosvtc/commonux.git
+	branch = master
+[submodule "SmartHomeDataModel"]
+	path = SmartHomeDataModel
+	url = ssh://git@stash.tutk.com:7999/kh2/ios_datamodel.git
+	branch = release/alpha
